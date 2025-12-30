@@ -29,7 +29,7 @@ const Product =mongoose.model('Product', {
 //create products
 app.post('/api/productcollection', async (req, res)=>{
     try {
-        console.log(req.body); // 🔴 IMPORTANT FOR DEBUGGING
+        console.log(req.body); 
         const product = new Product(req.body);
         await product.save();
         res.status(201).json(product);
