@@ -1,4 +1,4 @@
-/* Page Background */
+
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   margin: 0;
@@ -6,7 +6,6 @@ body {
   background-color: rgb(255, 0, 234);
 }
 
-/* Main Heading */
 h2 {
   text-align: center;
   color: #2c3e50;
@@ -14,7 +13,7 @@ h2 {
   background-color: #3498db;
 }
 
-/* Form Container */
+
 form {
   width: 420px;
   margin: 20px auto;
@@ -24,7 +23,7 @@ form {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Input Fields */
+
 input {
   width: 100%;
   padding: 10px;
@@ -35,7 +34,7 @@ input {
   box-sizing: border-box;
 }
 
-/* Buttons */
+
 button {
   padding: 10px 18px;
   margin: 10px 5px 0 0;
@@ -45,19 +44,19 @@ button {
   font-size: 14px;
 }
 
-/* Add / Update Button */
+
 button:first-of-type {
   background-color: #3498db;
   color: white;
 }
 
-/* Clear Button */
+
 button:last-of-type {
   background-color: #95a5a6;
   color: white;
 }
 
-/* Table Styling */
+
 table {
   width: 90%;
   margin: 20px auto;
@@ -66,45 +65,44 @@ table {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Table Header */
+
 th {
   background-color: #2c3e50;
   color: white;
   padding: 12px;
 }
 
-/* Table Data */
 td {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
 
-/* Table Row Hover */
+
 tr:hover {
   background-color: #f2f2f2;
 }
 
-/* Action Buttons */
+
 td button {
   padding: 6px 10px;
   margin: 0 3px;
   font-size: 13px;
 }
 
-/* Edit Button */
+
 td button:first-child {
   background-color: #27ae60;
   color: white;
 }
 
-/* Delete Button */
+
 td button:last-child {
   background-color: #e74c3c;
   color: white;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
   form {
     width: 90%;
